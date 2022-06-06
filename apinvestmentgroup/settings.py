@@ -28,10 +28,10 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = 'django-insecure-!ryczde)g$+56i&og@uw7b%f4tt1%haa8t1lofru3(v!xz$_-^' #env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env('DEBUG')
+DEBUG = False # env('DEBUG')
 
 ALLOWED_HOSTS = ['whispering-sands-05326.herokuapp.com', 'apinvestmentgroup.com', '127.0.0.1', '0.0.0.0']
 
