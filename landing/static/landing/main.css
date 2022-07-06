@@ -18,18 +18,16 @@
     text-align: center;
     font-size: 4rem;
     font-weight: 300;
-    color: red;
+    color: #EF4D1E;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     text-shadow: 1px 1px 0px rgb(3, 233, 156);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: red;
+    -webkit-text-stroke-color: #EF4D1E;
 
 }
 
-.points {
-    background-color: rgb(14, 122, 185);
-}
+.points { }
 
 .point {
     position: relative;
@@ -51,8 +49,17 @@
     font-size: 1.25rem;
 }
 
+.logo {
+    height: 100;
+    width: 150;
+}
+
 @media (min-width: 640px) {
 	html { font-size: 112%; }
+    .logo { 
+        height: 150;
+        width: 200;
+    }
 	.column {
 		float: left;
 		padding-left: 1rem;
@@ -66,18 +73,14 @@
 	.column.flow-opposite {float: right;}
 }
 
-footer {
-    background: rgb(14, 122, 185);
-}
+footer { }
+
 
 .list-alignment {
     text-align: left
 }
 
-.content-section {
-    background: rgb(14, 122, 185);
-    /*background: linear-gradient(to right, rgb(216,177,177), rgb(185,118,116), rgb(216,177,177));*/
-}
+.content-section { }
 
 .pointer {
     cursor: pointer

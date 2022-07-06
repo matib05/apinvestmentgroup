@@ -5,5 +5,5 @@ from . import views
 app_name = 'polls'
 urlpatterns = [
     path('', views.index, name='index'),
-    path('aboutUs', views.about_us, name='about-us'),
+    path('about-us', views.about_us, name='about-us'),
 ]
